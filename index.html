@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026: The Virgin Chronicles</title>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Orbitron:wght@400;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #08000d;
+            color: #d1d1d1;
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .witch-vibe {
+            font-size: 80px;
+            margin-bottom: 0;
+            filter: drop-shadow(0 0 15px #8e44ad);
+            animation: hover 2s ease-in-out infinite;
+        }
+
+        @keyframes hover {
+            0%, 100% { transform: translateY(0) rotate(-5deg); }
+            50% { transform: translateY(-15px) rotate(5deg); }
+        }
+
+        h1 {
+            font-family: 'Creepster', cursive;
+            color: #2ecc71;
+            font-size: 3.5rem;
+            margin: 10px 0;
+            text-shadow: 2px 2px #000, 0 0 20px #2ecc71;
+        }
+
+        .curse-box {
+            background: rgba(46, 204, 113, 0.05);
+            border: 2px solid #2ecc71;
+            border-radius: 20px;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 25px;
+            box-shadow: 0 0 30px rgba(46, 204, 113, 0.1);
+        }
+
+        .rizz-meter {
+            width: 100%;
+            height: 20px;
+            background: #1a1a1a;
+            border-radius: 10px;
+            margin: 20px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .rizz-fill {
+            width: 0%; /* Permanently Zero */
+            height: 100%;
+            background: #e74c3c;
+            box-shadow: 0 0 10px #e74c3c;
+        }
+
+        .roast-list {
+            text-align: left;
+            margin: 20px 0;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .slang {
+            color: #2ecc71;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .year-compare {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .year-card {
+            background: #111;
+            padding: 10px;
+            border-radius: 10px;
+            width: 45%;
+        }
+
+        .bad-luck { color: #e74c3c; font-weight: bold; }
+
+        .btn-curse {
+            background: #2ecc71;
+            color: black;
+            border: none;
+            padding: 15px 30px;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 900;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .btn-curse:hover { background: #27ae60; transform: scale(1.05); }
+
+    </style>
+</head>
+<body>
+
+    <p class="witch-vibe">🧙‍♀️</p>
+    <h1>THE 2026 CURSE</h1>
+    <p style="letter-spacing: 2px;">Target: <span style="color:white; font-weight:bold;">YOUR SINGLE BRO</span></p>
+
+    <div class="curse-box">
+        <p>The Witch has looked into the 2025 archives... <strong>Result: 404 Girlfriend Not Found.</strong></p>
+        
+        <div class="rizz-meter">
+            <div class="rizz-fill"></div>
+        </div>
+        <p style="font-size: 0.7rem; color: #e74c3c;">RIZZ LEVEL: ABSOLUTE ZERO</p>
+
+        <div class="roast-list">
+            <p>• <span class="slang">"The Ghost Whisperer"</span> - Because the only things that talk to him are the girls who ghosted him in 2025.</p>
+            <p>• <span class="slang">"Screen-Time King"</span> - His only "date" on New Year's Eve is 5 hours of scrolling TikTok.</p>
+            <p>• <span class="slang">"2026 Motionless"</span> - New year, same bed, same lonely pillow.</p>
+        </div>
+
+        <div class="year-compare">
+            <div class="year-card">
+                <p>2025</p>
+                <span class="bad-luck">NO GIRLFRIEND</span>
+            </div>
+            <div class="year-card">
+                <p>2026</p>
+                <span class="bad-luck">STILL SINGLE</span>
+            </div>
+        </div>
+
+        <button class="btn-curse" onclick="alert('CURSE CONFIRMED: 365 more days of loneliness locked in!')">REVEAL HIS FATE</button>
+    </div>
+
+    <p style="margin-top: 30px; color: #555; font-size: 0.8rem;">
+        Happy New Year All! (Except him, he's staying in the friendzone.)
+    </p>
+
+</body>
+</html>
